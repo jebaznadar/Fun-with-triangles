@@ -18,5 +18,5 @@ function calculateScore(){
     }
     index= index + 1;
  }
-    showOutput.innerText = "Your score is " + score;
+    showOutput.innerText = "Your score is" + score;
 }
