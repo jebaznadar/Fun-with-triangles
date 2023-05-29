@@ -10,25 +10,85 @@
 </head>
 
 <body>
-    <h1>Quiz on triangles</h1>
+    <header>
+        <h1> FUN WITH TRIANGLES</h1>
+        <nav class="navbar">
+            <a href="istriangle.html">Is triangle ? </a>
+            <a class="link-active" href="quiz.html"> Triangle quiz </a>
+            <a href="hypotenuse.html">Hypotenuse</a>
+            <a href="area.html">Area of a Triangle</a>
+        </nav>
+    </header>
+    <h1 class="heading">Quiz on triangles</h1>
     <h3>For each correct answer you will get 1 point .</h3>
     <form id="quiz-form">
         <div class="question-container">
             <p class="question-container">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
             </p>
-            <label><input type="radio" value="45°" name="question-one">45°</label>
-            <label> <input type="radio" value="60°" name="question-one">60°</label>
-            <label><input type="radio" value="90°" name="question-one">90°</label>
+            <label class="quiz-label"> <input class="input-quiz" type="radio" value="45°"
+                    name="question-one">45°</label>
+            <label class="quiz-label"> <input class="input-quiz" type="radio" value="60°"
+                    name="question-one">60°</label>
+            <label class="quiz-label"><input class="input-quiz" type="radio" value="90°" name="question-one">90°</label>
         </div>
         <div class="question-container">
             <p class="question-container">if a Triangle has an angle of 90°, what is it called ?</p>
-            <label><input type="radio" value="Acute angled" name="question-two">Acute angled</label>
-            <label> <input type="radio" value="Obtuse angled" name="question-two">Obtuse angled</label>
-            <label> <input type="radio" value="Right angled" name="question-two">Right angled</label>
+            <label class="quiz-label"> <input type="radio" value="Acute angled" name="question-two">Acute angled</label>
+            <label class="quiz-label"> <input type="radio" value="Obtuse angled" name="question-two">Obtuse
+                angled</label>
+            <label class="quiz-label"> <input type="radio" value="Right angled" name="question-two">Right angled</label>
+        </div>
+        <div class="question-container">
+            <p class="question-container">There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is
+                the measure of angles P and R?</p>
+            <label class="quiz-label"> <input type="radio" value="85°" name="question3">85°</label>
+            <label class="quiz-label"> <input type="radio" value="65°" name="question3">65°</label>
+            <label class="quiz-label"> <input type="radio" value="45°" name="question3">45°</label>
+        </div>
+        <div class="question-container">
+            <p class="question-container">If the largest angle in a triangle is 70°, what is the least possible value of
+                the smallest angle of the triangle ?</p>
+            <label class="quiz-label"> <input type="radio" value="30°" name="question4">30°</label>
+            <label class="quiz-label"> <input type="radio" value="10°" name="question4">10°</label>
+            <label class="quiz-label"> <input type="radio" value="40°" name="question4">40°</label>
+        </div>
+        <div class="question-container">
+            <p class="question-container">If one angle of a triangle is obtuse, then which one of the following is the
+                possible measure of remaining angles ?</p>
+            <label class="quiz-label"> <input type="radio" value="100°" name="question5">100°</label>
+            <label class="quiz-label"> <input type="radio" value="85°" name="question5">85°</label>
+            <label class="quiz-label"> <input type="radio" value="90°" name="question5">90°</label>
         </div>
     </form>
     <button id="submit-button"> Submit </button>
-    <h2 class="show-output"></h2>
+    <h2 id="output"></h2>
+    <footer>
+
+        <ul class="footer-list">
+            <li>
+                <a class="links" href="https://github.com/jebaznadar" target="_blank">
+                    <img src="images/github.svg" alt="github" />
+                </a>
+            </li>
+            <li>
+                <a class="links" href="https://discordapp.com/users/597166768670113795" target="_blank">
+                    <img src="images/discord.svg" alt="discord" />
+                </a>
+            </li>
+            <li>
+                <a class="links" href="https://twitter.com/aaugaxtin?s=8" target="_blank">
+                    <img src="images/twitter.svg" alt="twitter" />
+                </a>
+            </li>
+            <li>
+                <a class="links" href="https://instagram.com/augaxtin?igshid=ZDdkNTZiNTM=" target="_blank">
+                    <img src="images/instagram.svg" alt="instagram" />
+                </a>
+            </li>
+        </ul>
+
+        <p> ©jebazAugastinNadar | All rights reserved | 2023</p>
+    </footer>
 
 </body>
 <script src="quiz.js"></script>

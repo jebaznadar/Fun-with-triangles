@@ -1,0 +1,139 @@
+:root{
+    --light-cyan :#0d3344;
+    --dark-cyan:#155e75 ;
+    --off-white: #f9fafb ;
+}
+*{
+
+    margin: 0;
+}
+.navbar{
+    background-color: var(--dark-cyan);
+    padding: 2rem;
+    text-align: right;
+    display: block;
+}
+header{
+    color: var(--off-white);
+    background-color: var(--dark-cyan);
+}
+header h1 {
+    font-family: "Megrim", cursive;
+    text-align: initial;
+}
+a{
+    text-decoration: none;
+    color: var(--off-white);
+    margin-left: 1rem;
+    font-size: large;
+}
+.heading{
+    text-align: center;
+}
+input ,label , button{
+    display: block;
+    width: 25%;
+    margin: auto;
+}
+label {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--light-cyan);
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem; 
+     
+   
+
+  }
+  .quiz-label{
+    display: inline-flex ;
+    margin: auto;
+    width: 25%;
+    padding-left: 0rems;
+    width: 90px;
+  }
+  .input-quiz{
+    
+     
+  }
+input{
+    
+    width:100%;
+    max-width: 256px;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 2px solid var(--light-cyan);
+    font-size: large;
+    text-align: center;
+}
+button{
+    background: var(--light-cyan);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+}
+.links {
+    
+    margin-right: 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-decoration: none; }
+img,
+li {
+  display: inline;
+}
+img {
+    width: 40px;
+    padding: 0.2rem;
+  }
+.footer-list {
+    margin: 1rem;
+    
+}
+footer{ 
+    padding-top: 1rem;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 1rem;
+}
+#output {
+    display: block;
+    margin: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-color: var(--black);
+    border-width: medium;
+    border-radius: 5px;
+    color: var(--light-cyan);
+  }
+  .question-container{
+    text-align: center;
+    font-size: large; 
+    padding: 1rem;
+  }
+  h3{
+    text-align: center;
+    font-size: large; 
+    padding: 1rem;
+  }
+  .link-active{
+    font-weight: bold;
+    text-decoration:overline;
+  }
+
